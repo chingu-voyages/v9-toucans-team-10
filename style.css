@@ -1,0 +1,17 @@
+body { padding-top: 70px; }
+@media screen and (max-width: 768px) {
+    body { padding-top: 0px; }
+}
+
+#carousel{
+  background-image: linear-gradient(to right, #579BCF, #AB57CF);
+}
+
+
+#circles{
+  background-image: linear-gradient(to right, #57B7CF, #57CF81);
+}
+
+#music-cards{
+  background-image: linear-gradient(to right, #579BCF, #AB57CF);
+}
