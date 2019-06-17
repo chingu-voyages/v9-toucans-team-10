@@ -3,10 +3,6 @@ body { padding-top: 70px; }
     body { padding-top: 0px; }
 }
 
-#carousel{
-  background-image: linear-gradient(to right, #579BCF, #AB57CF);
-}
-
 
 #circles{
   background-image: linear-gradient(to right, #57B7CF, #57CF81);
@@ -15,3 +11,61 @@ body { padding-top: 70px; }
 #music-cards{
   background-image: linear-gradient(to right, #579BCF, #AB57CF);
 }
+
+.carousel-caption {
+  color: lightgray;
+}
+
+.carousel {
+	margin: 25px 0 50px;
+    background: #fff;
+	position: relative;
+	padding: 8px;
+	box-shadow: 0 0 1px rgba(0,0,0,0.3);
+}
+.carousel:before, .carousel:after {
+	z-index: -1; 
+	position: absolute; 
+	content: "";
+	bottom: 15px;
+	left: 10px;
+	width: 50%; 
+	top: 80%;
+	max-width: 400px;
+	background: rgba(0, 0, 0, 0.7); 
+	box-shadow: 0 15px 10px rgba(0, 0, 0, 0.7);
+	transform: rotate(-3deg);
+}
+.carousel:after {
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+.carousel .item {	
+    text-align: center;
+	min-height: 314px;
+}
+.carousel .item img {
+  max-width: 100%;
+  
+    
+    margin: 0 auto; /* Align slide image horizontally center in Bootstrap v3 */
+}
+
+.carousel-indicators {
+	bottom: -42px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	margin: 1px 4px;
+}
+.carousel-indicators li {
+	border: 1px solid #475c6f;
+}
+.carousel-indicators li.active {
+	background: #20b0b9;
+	border-color: #20b0b9;
+}
+
