@@ -69,3 +69,18 @@ body { padding-top: 70px; }
 	border-color: #20b0b9;
 }
 
+#music-card-alt{
+  background-image: linear-gradient(to left, #f49542, #54e9f7)
+}
+
+
+#card-title{
+  background-image: linear-gradient(to right, #579BCF, #AB57CF);
+}
+/* .container{
+  border: red 1px solid;
+} */
+
+/* .col-sm-6{
+  border: red 1px solid;
+} */

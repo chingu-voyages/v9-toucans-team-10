@@ -100,91 +100,110 @@
   </div>
 </div>
   
-<!-- MUSIC CARDS -->  
-<div class="container-fluid p-5" style="" id="music-cards">
+<!-- MUSIC CARDS ROW ALTERNATIVE -->
+<div class="container-fluid" id="music-card-alt">
+  <div class="container p-3">
+    <div class="jumbotron" id="card-title">
+      <h1>Section Title</h1>
+      <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima voluptas a enim cumque. Debitis voluptatem optio error quis quaerat saepe, aspernatur amet, fugit, dignissimos repellat deserunt provident vero repudiandae id.</p>
+    </div>
+    <div class="row">
+      <!-- CARD 1 -->
+        <div class="col-md-6 col-sm-12 p-3">
+          <div class="card bg-primary p-1">
+            <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+              <h4 class="card-header" id="artist-name">John Doe</h4>
+            <div class="card-body">
+              <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </div>
+          </div>
+      </div>
+      <!-- END CARD 1 -->
+      <!-- CARD 2 -->
+        <div class="col-md-6 col-sm-12 p-3">
+          <div class="card bg-warning p-1">
+           <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571199634&color=%23695458&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+              <h4 class="card-header" id="artist-name">Jane Doe</h4>
+            <div class="card-body">
+              <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+          </div>
+      </div>
+      <!-- END CARD 2 -->
+       <!-- CARD 3 -->
+        <div class="col-md-6 col-sm-12 p-3">
+          <div class="card bg-danger p-1">
+           <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/460255794&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+              <h4 class="card-header" id="artist-name">Jane Doe</h4>
+            <div class="card-body">
+              <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+          </div>
+      </div>
+      <!-- END CARD 3 -->
+       <!-- CARD 4 -->
+        <div class="col-md-6 col-sm-12 p-3">
+          <div class="card bg-info p-1">
+           <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/579547794&color=%23c4f4f4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+              <h4 class="card-header" id="artist-name">Jane Doe</h4>
+            <div class="card-body">
+              <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
+          </div>
+      </div>
+      <!-- END CARD 2 -->
+      </div>   
+    </div>
+  </div>
+  
+<!-- MUSIC CARDS COLUMNS EXAMPLE -->
+
+<div class="container-fluid" style="" id="music-cards">
   <div class="container">
-    <div class="card-columns">
-      <!-- FIRST MUSIC CARD -->
-      <div class="card bg-primary"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">John Doe</h4>
-          <div class="container-fluid">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+    <div class="row">
+<!-- FIRST MUSIC CARD -->
+    <div class="col-sm-12 p-3">
+      <div class="card bg-primary p-1"> <!-- bg-primary changes color -->
+        <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <h4 class="card-header" id="artist-name">John Doe</h4>
+      <div class="card-body">   
+        <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
-        </div>
       </div>
-      <!-- SECOND MUSIC CARD -->
-      <div class="card bg-warning"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jane Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571199634&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+    </div>
+  
+<!-- SECOND CARD -->
+<div class="col-sm-12 p-3">
+          <div class="card bg-warning p-1"> <!-- bg-primary changes color -->
+       <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/545611869&color=%23bcb4bf&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <h4 class="card-header" id="artist-name">John Doe</h4>
+      <div class="card-body">  
+        <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
-        </div>
-      </div>
-        <!-- THIRD MUSIC CARD -->
-           <div class="card bg-success"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jerg Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/408522444&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-           </div>
-        </div>
-      </div>
-      <!-- FIRST MUSIC CARD -->
-      <div class="card bg-primary"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">John Doe</h4>
-          <div class="container-fluid">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  </div>
+  </div>
+  
+  <!-- THIRD CARD -->
+<div class="col-sm-12 p-3">
+          <div class="card bg-danger p-1"> <!-- bg-primary changes color -->
+      <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/579547794&color=%23c4f4f4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <h4 class="card-header" id="artist-name">John Doe</h4>
+      <div class="card-body">   <!-- CENTERED TEXT EXAMPLE -->   
+        <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
           </div>
-        </div>
-      </div>
-      <!-- SECOND MUSIC CARD -->
-      <div class="card bg-warning"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jane Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571199634&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+  </div>
+</div>
+    <!-- FOURTH CARD -->
+    <div class="col-sm-12 p-3">
+          <div class="card bg-secondary p-1"> <!-- bg-primary changes color -->
+       <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/460255794&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+        <h4 class="card-header" id="artist-name">John Doe</h4>
+      <div class="card-body">   <!-- CENTERED TEXT EXAMPLE -->   
+        <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
           </div>
-        </div>
-      </div>
-        <!-- THIRD MUSIC CARD -->
-           <div class="card bg-success"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jerg Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/408522444&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-           </div>
-        </div>
-      </div>
-      <!-- FIRST MUSIC CARD -->
-      <div class="card bg-primary"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">John Doe</h4>
-          <div class="container-fluid">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          </div>
-        </div>
-      </div>
-      <!-- SECOND MUSIC CARD -->
-      <div class="card bg-warning"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jane Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571199634&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          </div>
-        </div>
-      </div>
-        <!-- THIRD MUSIC CARD -->
-           <div class="card bg-success"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jerg Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/408522444&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-           </div>
-        </div>
-      </div>
+  </div>
+  </div>
+      
       <!-- END OF CARDS -->
         </div>
       </div>
