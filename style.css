@@ -9,9 +9,9 @@ body {
 
 
 
-
-.container {
+.carousel-div {
   margin-bottom: 4rem;
+ 
 }
 
 .carousel-caption {
@@ -75,29 +75,40 @@ body {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
-  
   width: 100%;
-  padding: 15px 15px 15 px 15px;
-  
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
 }
 .circles-content {
-  
   padding-right: 15px;
   padding-left: 15px;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 .circles-images {
   border-radius: 50%;
   
 }
-.btn {
-  background-color: hsl(200, 48%, 6%);
-  border: none;
-  font-size: ;
+.circles-title {
+  background-color: ;
+  margin-top: 2rem;
+}
+.circles-text {
+  background-color:;
+  margin-top: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.4;
 }
 
+
+.btn-listen-now {
+  background-color: hsl(200, 48%, 6%);
+  border: none;
+  font-size: 1.5rem;
+  line-height: 1.4;;
+}
 
 
 
