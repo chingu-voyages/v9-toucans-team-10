@@ -11,32 +11,59 @@
 
     <link rel="stylesheet" href="./style.css">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+
+</head>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 
 <body>
     <header>
         <!-- NAVIGATION BAR -->
         <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-            <a class="navbar-brand" href="#">Yuorban</a>
-            <!--Toggle/collapse-->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Sign Up</a>
-                    </li>
-                </ul>
+            <form class="form-inline" href="#">
+                <a class="navbar-brand font-size" href="#">Yuorban</a>
+                <!-- Button trigger modal -->
+                <div class="btn-toolbar">
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#exampleModal">Home</button>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#exampleModal">Register</button>
+                    <button type="button" class="btn btn-default btn-lg" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+                </div>
+            </form>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="modal-title" id="exampleModalLabel">Under Construction!</h3>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                        </div>
+                        <div class="modal-body">
+                            Sorry we are still working on these functionalities!<br>Be sure to check back later when everything is up and running!
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </nav>
+
+            <!--End Modal-->
+
     </header>
 
     <main>
@@ -113,13 +140,18 @@
                 </p>
             </div>
         </div>
-
+        <!-- Music Cards -->
         <div class="container-fluid" id="music-card-alt">
             <div class="container">
                 <div class="col-md-12 col-sm-12 p-3">
-                    <div class="jumbotron" id="card-title">
-                        <h1>Section Title</h1>
-                        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima voluptas a enim cumque. Debitis voluptatem optio error quis quaerat saepe, aspernatur amet, fugit, dignissimos repellat deserunt provident vero repudiandae id.</p>
+                    <div class=i d="card-title">
+                        <h1>July's Featured Artists</h1>
+                        <p class="lead">Be sure to check out our YouTube channel for interviews with the artists and song reviews.
+                            <script src="https://apis.google.com/js/platform.js"></script>
+
+                            <div class="g-ytsubscribe" data-channel="GoogleDevelopers" data-layout="default" data-count="default"></div>
+                        </p>
+
                     </div>
                     <div class="row">
                         <!-- CARD 1 -->
@@ -178,9 +210,41 @@
         </div>
 
         <!-- FOOTER -->
-        <footer class="container-fluid p-3" style="" id="footer">
-            <p class="float-right"> Yuorban, Inc. 2019-2020
-            </p>
+        <footer class="page-footer font-small blue pt-4" style="" id="footer">
+            <div class="container-fluid text-center text-md-left">
+                <div class="row">
+                    <div class="col-md-6 mt-md-o mt-3">
+                        <h5 class="text-uppercase">Yuorban</h5>
+                        <p>Organize footer content here!</p>
+                    </div>
+                    <!--grid column code -->
+                    <div class="col-md-3 mb-md-0 mb-3">
+                        <!-- Links -->
+                        <h5 class="text-uppercase">Website Links</h5>
+
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="#!">Link 1</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 2</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 3</a>
+                            </li>
+                            <li>
+                                <a href="#!">Link 4</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Copyright -->
+                <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                    <a href="https://codepen.io/whosthatnewguy/pen/KLLgwm?editors=1100"> Yuorban.com</a>
+                </div>
+                <!-- Copyright -->
+            </div>
+        </footer>
 
         </footer>
     </main>

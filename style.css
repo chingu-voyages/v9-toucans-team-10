@@ -4,11 +4,8 @@ body {
     background-color: hsl(200, 48%, 6%);
 }
 
-
-
 .carousel-div {
-  margin-bottom: 4rem;
- 
+    margin-bottom: 4rem;
 }
 
 .carousel-caption {
@@ -77,62 +74,55 @@ body {
 }
 
 .circles-div {
-  display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  width: 100%;
-  padding-left: 4rem;
-  padding-right: 4rem;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .circles-content {
-  padding-right: 15px;
-  padding-left: 15px;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .circles-images {
     border-radius: 50%;
 }
+
 .circles-title {
-  background-color: ;
-  margin-top: 2rem;
-}
-.circles-text {
-  background-color:;
-  margin-top: 2rem;
-  font-size: 1.25rem;
-  line-height: 1.4;
+    background-color: ;
+    margin-top: 2rem;
 }
 
+.circles-text {
+    background-color: ;
+    margin-top: 2rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+}
 
 .btn-listen-now {
-  background-color: hsl(200, 48%, 6%);
-  border: none;
-  font-size: 1.5rem;
-  line-height: 1.4;;
+    background-color: hsl(200, 48%, 6%);
+    border: none;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    ;
 }
 
 #music-card {
     background-image: linear-gradient(to right, #579BCF, #AB57CF);
 }
 
-#music-card-alt {
-    background-image: linear-gradient(to left, #f49542, #54e9f7)
-}
-
 #card-title {
     background-image: linear-gradient(to right, #d2d5db, #212020);
 }
 
-/* .container{
-  border: red 1px solid;
-} */
-
-
-/* .col-sm-6{
-  border: red 1px solid;
-} */
+#footer {
+    background-image: linear-gradient(to right, #d2d5db, #212020);
+}
