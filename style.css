@@ -1,7 +1,7 @@
             body {
             padding-top: px;
             color: lightgray;
-            background-color: hsl(200, 48%, 6%);
+            background-color: #081217;
         }
         
         .carousel-div {
@@ -101,11 +101,11 @@
         }
         
         .circles-text {
-            background-color: ;
+            
             margin-top: 2rem;
             font-size: 1.25rem;
             line-height: 1.4;
-        }
+          }
         
         .btn-listen-now {
             background-color: hsl(200, 48%, 6%);
