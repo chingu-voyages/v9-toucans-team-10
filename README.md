@@ -8,27 +8,27 @@ Created for Chingu Voyage 9 (Tier 1)
 
 to add: screenshot of the landing page
 
-# About
+## About
 This is a landing page for a music sharing plateform
 
-# Team members:
+## Team members:
 * @whosthatnewguy https://github.com/whosthatnewguy
 * @alatruwe https://github.com/alatruwe
 
-# Objectives
+## Objectives
 
 * Get familiar with Git&Github and project management tools (Zenhub)
 * Learn and play with Bootstrap
 
-# MVP (Minimum Viable Product)
+## MVP (Minimum Viable Product)
 * Fully responsive landing page
 
-# Tech Stack
+## Tech Stack
 * HTML
 * CSS
 * JavaScript
 
-# Acknowledgements
+## Acknowledgements
 Big thanks to all the moderators and organizers of Chingu!
 * Chingu Website: https://chingu.io/
 * Chingu Github: https://chingu-cohorts.github.io/chingu-directory/
