@@ -172,3 +172,18 @@ body {
     display: block;
     visibility: visible;
 }
+
+.footer-title {
+    text-align: center;
+    font-size: 1.25rem;
+}
+.footer-links {
+    font-size: 14px;
+    margin-top: 20px;
+}
+.footer-text {
+    margin-bottom: 5px;
+}
+.footer-icon {
+    font-size: 20px;
+}
