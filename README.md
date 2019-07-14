@@ -6,7 +6,6 @@
 
 Created for Chingu Voyage 9 (Tier 1)
 
-!(Yuorban preview.png)
 
 ## About
 This is a landing page for a music sharing plateform
