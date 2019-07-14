@@ -3,7 +3,18 @@ body {
     color: lightgray;
     background-color: #081217;
 }
-        
+
+.navbar-title,
+.footer-title,
+.card-title {
+    color: #20b0b9; 
+}
+.navbar-btn {
+    color: lightgray;
+}
+.navbar-btn:hover {
+    color: #20b0b9;
+}
 .carousel-div {
     margin-bottom: 4rem;
 }
@@ -83,7 +94,7 @@ body {
     border-radius: 50%;
 }
 .circles-title {
-    background-color: ;
+    color: #20b0b9;
     margin-top: 2rem;
 }
 .circles-text {
@@ -94,20 +105,14 @@ body {
 
 .btn-listen-now {
     color: lightgray;
-    background-color: hsl(200, 48%, 6%);
+    
     border: none;
     font-size: 1.5rem;
     line-height: 1.4;
 }
-.btn-listen-now:hover {
-    background-color: #081217;
-}
-        
-#music-card {
-    background-color:  #081217;
-}       
-#card-title {
-    background-image: linear-gradient(to right, #d2d5db, #212020);
+      
+.card-title {
+    co
 }
 
 .card-content {
