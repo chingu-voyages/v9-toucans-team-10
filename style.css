@@ -6,7 +6,7 @@ body {
 
 .navbar-title,
 .footer-title,
-.card-title {
+.preview-title {
     color: #20b0b9; 
 }
 .navbar-btn {
@@ -93,34 +93,30 @@ body {
 }
 .circles-images {
     border-radius: 50%;
-}
+} 
 .circles-title {
     color: #20b0b9;
     margin-top: 2rem;
 }
-.circles-text {
+.circles-text,
+.card-text {
     margin-top: 2rem;
     font-size: 1.25rem;
     line-height: 1.4;
 }
-
 .btn-listen-now {
     color: lightgray;
-    
     border: none;
     font-size: 1.5rem;
     line-height: 1.4;
 }
-      
-.card-title {
-    co
-}
 
-.card-content {
-    
+.card-title {
+    margin-bottom: 2rem;
+}
+.card-content { 
     padding-top: 4rem;
     padding-bottom: 4rem; 
-    
 }
     
 .btn-toolbar {
