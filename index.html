@@ -1,187 +1,229 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Yuorban_Test_1</title>
-  
-  
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Yuorban</title>
 
-      <link rel="stylesheet" href="./style.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
 
-  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+        <!-- NAVIGATION BAR -->
+        <header>
+            <nav class="navbar navbar-expand-md navbar-light d-flex mb-3">
+                <a class="navbar-brand" href="#"><span class="mb-0 h1 navbar-title">Yuorban</span></a>
+                <!-- Button trigger modal -->
+                <div class="btn-toolbar p-2">
+                    <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent" data-toggle="modal" data-target="#exampleModal">Home</button>
+                    <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent" data-toggle="modal" data-target="#exampleModal">Register</button>
+                    <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+                </div>
+                <div class="ml-auto p-2">
+                    <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent ml-auto" data-toggle="modal" data-target="#exampleModal">Log in</button>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h3 class="modal-title" id="exampleModalLabel">Under Construction!</h3>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                Sorry we are still working on these functionalities!<br>Be sure to check back later when everything is up and running!
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <!--End Modal-->
+        </header>
 
-  <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8"> 
-  </head>
-  
-  
-<body>
-  <header>
-    <!-- NAVIGATION BAR -->
-    <nav class=" navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <a class="navbar-brand" href="#">
-        <h1 class="">Yuorban</h1>
-      </a>
-      <div class="container-fluid">
-        <div class="btn-group btn-group-lg">
-          
-          <button type="button" class="btn btn-danger float-right">Test Button 1</button> <div style="clear: both;"></div>
-          <button type="button" class="btn btn-primary">Test Button 2</button>
-          <button type="button" class="btn btn-warning">Test Button 3</button>
-    </div>
-  </div>
- </nav>
-</header>
- 
-<main>
-  
-<!-- CAROUSEL -->  
-<div class="jumbotron-fluid p-1" style="background-color:; height: 500px;" id="carousel">
-  <div class="container">
-    <h1>Super Complicated Carousel</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam autem commodi cum nam dolorem ab nulla aperiam inventore, dolorum, aliquam voluptatum, unde eius sequi officiis beatae in soluta illo. Temporibus!</p>
-  </div>
-</div>
-  
+        <main>
+            <!-- CAROUSEL -->
+            <div class="container carousel-div">
+                <div class="row">
+                    <div class="col col-md-offset-2 m-auto">
+                        <div class="bd-example">
+                            <div id="carouselCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+                                <!-- Carousel indicators -->
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
+                                    <li data-target="#carouselCaptions" data-slide-to="1"></li>
+                                    <li data-target="#carouselCaptions" data-slide-to="2"></li>
+                                </ol>
 
-<!-- FANCY CIRCLES -->
-<div class="jumbotron-fluid p-2" style="height: 500px;" id="circles">
-  <div class="container">
-    <h1>DEATH CIRCLES</h1>
-    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam autem commodi cum nam dolorem ab nulla aperiam inventore, dolorum, aliquam voluptatum, unde eius sequi officiis beatae in soluta illo. Temporibus!</p>
-    <div class="container row p-3">
-    <div class="col-lg-4">
-      <h1>Title 1</h1>
-      </div>
-    <div class="col-lg-4">
-      <h1>Title 2</h1>
-      </div>
-    <div class="col-lg-4">
-      <h1>Title 3</h1>
-      </div>
-    </div>
-  </div>
-</div>
-  
-<!-- MUSIC CARDS -->  
-<div class="container-fluid p-5" style="" id="music-cards">
-  <div class="container">
-    <div class="card-columns">
-      <!-- FIRST MUSIC CARD -->
-      <div class="card bg-primary"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">John Doe</h4>
-          <div class="container-fluid">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          </div>
-        </div>
-      </div>
-      <!-- SECOND MUSIC CARD -->
-      <div class="card bg-warning"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jane Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571199634&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          </div>
-        </div>
-      </div>
-        <!-- THIRD MUSIC CARD -->
-           <div class="card bg-success"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jerg Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/408522444&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-           </div>
-        </div>
-      </div>
-      <!-- FIRST MUSIC CARD -->
-      <div class="card bg-primary"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">John Doe</h4>
-          <div class="container-fluid">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          </div>
-        </div>
-      </div>
-      <!-- SECOND MUSIC CARD -->
-      <div class="card bg-warning"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jane Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571199634&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          </div>
-        </div>
-      </div>
-        <!-- THIRD MUSIC CARD -->
-           <div class="card bg-success"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jerg Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/408522444&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-           </div>
-        </div>
-      </div>
-      <!-- FIRST MUSIC CARD -->
-      <div class="card bg-primary"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">John Doe</h4>
-          <div class="container-fluid">
-            <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          </div>
-        </div>
-      </div>
-      <!-- SECOND MUSIC CARD -->
-      <div class="card bg-warning"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jane Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/571199634&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-          </div>
-        </div>
-      </div>
-        <!-- THIRD MUSIC CARD -->
-           <div class="card bg-success"> <!-- changes color -->
-        <div class="card-body text-center">
-          <h4 class="card-title">Jerg Doe</h4>
-          <div class="container-fluid">
-          <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/408522444&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-           </div>
-        </div>
-      </div>
-      <!-- END OF CARDS -->
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-interval="4500">
+                                        <img src="pics\rachit-tank-625167-unsplash.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption text-left d-none d-md-block">
+                                            <h1>Share Your Music</h1>
+                                            <p>Upload a polished, or progressing version of your best work and share it with thousand of other aspiring musicians.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-interval="4500">
+                                        <img src="pics\yvette-de-wit-118719-unsplash.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption text-left d-none d-md-block">
+                                            <h1>Gain Exposure</h1>
+                                            <p>Through joining our network you get the chance to be featured on our Soundcloud and YouTube review channel where we introduce you, the artist, and your latest work to our viewers.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item" data-interval="4500">
+                                        <img src="pics\rocco-dipoppa-668739-unsplash.jpg" class="d-block w-100" alt="...">
+                                        <div class="carousel-caption text-left d-none d-md-block">
+                                            <h1>Collaborate</h1>
+                                            <p>We provide social media and contact information for every artist we feature. Hear something you like? Reach out to them and get something going.</p>
+                                        </div>
+                                    </div>
+                                </div>
 
-<!-- FOOTER -->
-<footer class="container-fluid p-3" style="" id="footer">
-  <p class="float-right">"© 2017-2018 Company, Inc."
-  </p>
- 
-</footer>
-</main>  
-  
-  
-  
-  
-  
-  
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CIRCLES -->
+            <div class="circles-div row">
+                <div class="circles-content col-lg-4">
+                    <img class="circles-images" src="pics\dark-rider-42019-unsplash.jpg" width="140" height="140">
+                    <h2 class="circles-title">Rock</h2>
+                    <p class="circles-text">Is Rock Music Dead?</p>
+                    <p class="circles-text">Dead? Not if you're really listening. Follow our Rock Icons playlist for the classic songs that inspired and empowered the new breed of rock heroes.</p>
+                    <p class="circles-text">Or discover new bands right now!</p>
+                    <p>
+                        <a class="btn btn-secondary bg-transparent btn-listen-now" href="#" role="button">Listen now</a>
+                    </p>
+                </div>
+                <div class="circles-content col-lg-4">
+                    <img class="circles-images" src="pics\lorenzo-spoleti-489606-unsplash.jpg" width="140" height="140">
+                    <h2 class="circles-title">Classical</h2>
+                    <p class="circles-text">What Is Classical Music?</p>
+                    <p class="circles-text">You know it when you hear it - or you think you do - but the more precisely you try to answer the question, the more elusive the answer gets.</p>
+                    <p class="circles-text"> Hear it in a new way!</p>
+                    <p>
+                        <a class="btn btn-secondary bg-transparent btn-listen-now" href="#" role="button">Listen now</a>
+                    </p>
+                </div>
+                <div class="circles-content col-lg-4">
+                    <img class="circles-images" src="pics\saxophone-1412218_1920.jpg" width="140" height="140">
+                    <h2 class="circles-title">Jazz</h2>
+                    <p class="circles-text">Defining Jazz</p>
+                    <p class="circles-text">Rich artistic heritage, product of cultural collaboration, universal language of tolerance and freedom. Jazz is an ideal first created in the mind.</p>
+                    <p class="circles-text">This is where the passion is!</p>
+                    <p>
+                        <a class="btn btn-secondary bg-transparent btn-listen-now" href="#" role="button">Listen now</a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- PREVIEWS -->
+            <div>
+                <h1 class="text-center mb-3 preview-title">July's Featured Artists</h1>
+                <!-- Card Container -->
+                <div class="card-div row">
+                            <!-- First Card-->
+                            <div class="card card-content bg-transparent col-lg-4" >
+                                <h4 class="card-header card-title">Bug</h4>
+                                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                                <div class="card-body text-center card-text ">
+                                    <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Tracks</a>
+                                    <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Albums</a>
+                                    <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Playlists</a>
+                                </div>
+                            </div>
+                        <!-- End First Card -->
+                        <!-- Second Card -->
+                            <div class="card card-content bg-transparent col-lg-4" >
+                                <h4 class="card-header card-title">Half/A\Giraffe</h4>
+                                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/579547794&color=%23c4f4f4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                                <div class="card-body text-center card-text">
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Tracks</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Albums</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Playlists</a>
+                                </div>
+                            </div>
+                        <!-- End Second Card -->
+                        <!-- Third Card -->
+                            <div class="card card-content bg-transparent col-lg-4" >
+                                <h4 class="card-header card-title">Methyl Lily</h4>
+                                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/640100490&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+                                <div class="card-body text-center card-text">
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Tracks</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Albums</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Playlists</a>
+                                </div>
+                            </div>
+                        <!-- End Third Card -->    
+                </div>
+            </div>
+
+            <!-- FOOTER -->
+            <footer class="page-footer font-small blue pt-4" id="footer">
+                <div class="container-fluid text-center text-md-left">
+                    <div class="row">
+                        <div class="col footer-title">
+                            <h5 class="footer-title">Yuorban</h5>
+                            <div class="row footer-links">
+                                    <div class="col">
+                                        <p class="footer-text">About Us</p>
+                                        <p class="footer-text">FAQ</p>
+                                        <p class="footer-text">Jobs</p>
+                                        <p class="footer-text">Help</p>
+                                    </div>
+                                    <div class="col">
+                                            <p class="footer-text">Privacy policy</p>
+                                            <p class="footer-text">Legal</p>
+                                            <p class="footer-text">Cookies</p>
+                                            <p class="footer-text">Privacy policy</p>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                        <!--grid column code -->
+                        <div class="col footer-title">
+                            <!-- Links -->
+                            <h5>Join our Community:</h5>
+                            <ul class="list-unstyled footer-links">
+                                <li class="footer-icon">
+                                    <i class="fab fa-twitter"></i>
+                                </li>
+                                <li class="footer-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </li>
+                                <li class="footer-icon">
+                                     <i class="fab fa-facebook-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Copyright -->
+                    <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                        <a href="https://codepen.io/whosthatnewguy/pen/KLLgwm?editors=1100"> Yuorban.com</a>
+                    </div>
+                </div>
+            </footer>
+
+        </main>
+
+        <!-- don't delete, plugins for the carousel feature -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
-</html>
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'></script>
-
-  
-
-</body>
-
 </html>
