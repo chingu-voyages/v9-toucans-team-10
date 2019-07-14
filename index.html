@@ -59,29 +59,30 @@
                     <div class="col col-md-offset-2 m-auto">
                         <div class="bd-example">
                             <div id="carouselCaptions" class="carousel slide carousel-fade" data-ride="carousel">
-
+                                <!-- Carousel indicators -->
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselCaptions" data-slide-to="0" class="active"></li>
                                     <li data-target="#carouselCaptions" data-slide-to="1"></li>
                                     <li data-target="#carouselCaptions" data-slide-to="2"></li>
                                 </ol>
 
+                                <!-- Carousel items -->
                                 <div class="carousel-inner">
-                                    <div class="carousel-item active">
+                                    <div class="carousel-item active" data-interval="4500">
                                         <img src="pics\rachit-tank-625167-unsplash.jpg" class="d-block w-100" alt="...">
                                         <div class="carousel-caption text-left d-none d-md-block">
                                             <h1>Share Your Music</h1>
                                             <p>Upload a polished, or progressing version of your best work and share it with thousand of other aspiring musicians.</p>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" data-interval="4500">
                                         <img src="pics\yvette-de-wit-118719-unsplash.jpg" class="d-block w-100" alt="...">
                                         <div class="carousel-caption text-left d-none d-md-block">
                                             <h1>Gain Exposure</h1>
                                             <p>Through joining our network you get the chance to be featured on our Soundcloud and YouTube review channel where we introduce you, the artist, and your latest work to our viewers.</p>
                                         </div>
                                     </div>
-                                    <div class="carousel-item">
+                                    <div class="carousel-item" data-interval="4500">
                                         <img src="pics\rocco-dipoppa-668739-unsplash.jpg" class="d-block w-100" alt="...">
                                         <div class="carousel-caption text-left d-none d-md-block">
                                             <h1>Collaborate</h1>
@@ -89,6 +90,8 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                
                             </div>
                         </div>
                     </div>
@@ -102,7 +105,7 @@
                     <img class="circles-images" src="pics\dark-rider-42019-unsplash.jpg" width="140" height="140">
                     <h2 class="circles-title">Rock</h2>
                     <p class="circles-text">Is Rock Music Dead?</p>
-                    <p class="circles-text">Not if you're really listening. Follow the Rock Icons playlist for the classic songs that inspired the new breed of rock heroes.</p>
+                    <p class="circles-text">Dead? Not if you're really listening. Follow our Rock Icons playlist for the classic songs that inspired and empowered the new breed of rock heroes.</p>
                     <p class="circles-text">Or discover new bands right now!</p>
                     <p>
                         <a class="btn btn-secondary btn-listen-now" href="#" role="button">Listen now</a>
@@ -129,8 +132,9 @@
                     </p>
                 </div>
             </div>
+
             <!-- Card Carousel -->
-            <div class="container-fluid" id="cardshiz">
+            <div>
                 <!--Section title -->
                 <h1 class="text-center mb-3">July's Featured Artists
                     <p class="lead">Be sure to check out our YouTube channel for interviews with the artists and song reviews.
@@ -140,117 +144,50 @@
                 </h1>
                 <!-- End title -->
                 <!-- Card Container -->
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner row w-100">
-                        <div class="carousel-item col-md-4 active">
+                <div class="card-div row">
                             <!-- First Card-->
-                            <div class="card bg-primary mb-2" id="music-card">
+                            <div class="card card-content bg-transparent col-lg-4" id="music-card">
                                 <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                                <div class="card-body">
-                                    <h4 class="card-header" id="artist-name">John Doe</h4>
-                                    <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    <a class="btn btn-warning btn-md btn-rounded">View</a>
+                                <div class="card-body text-center">
+                                    <h4 class="card-header" id="artist-name">Bug</h4>
+                                    <div>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Tracks</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Albums</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Playlists</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         <!-- End First Card -->
                         <!-- Second Card -->
-                        <div class="carousel-item col-md-4">
-                            <div class="card bg-primary mb-2" id="music-card">
+                            <div class="card card-content bg-transparent col-lg-4" id="music-card">
                                 <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/579547794&color=%23c4f4f4&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                                <div class="card-body">
-                                    <h4 class="card-header" id="artist-name">John Doe</h4>
-                                    <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    <a class="btn btn-warning btn-md btn-rounded">View</a>
+                                <div class="card-body text-center">
+                                    <h4 class="card-header" id="artist-name">Half/A\Giraffe</h4>
+                                    <div>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Tracks</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Albums</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Playlists</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         <!-- End Second Card -->
                         <!-- Third Card -->
-                        <div class="carousel-item col-md-4">
-                            <div class="card bg-info mb-2" id="music-card">
+                            <div class="card card-content bg-transparent col-lg-4" id="music-card">
                                 <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/640100490&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                                <div class="card-body">
-                                    <h4 class="card-header" id="artist-name">Jane Doe</h4>
-                                    <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    <a class="btn btn-warning btn-md btn-rounded">View</a>
+                                <div class="card-body text-center">
+                                    <h4 class="card-header" id="artist-name">Methyl Lily</h4>
+                                    <div>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Tracks</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Albums</a>
+                                        <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Playlists</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
                         <!-- End Third Card -->
-                        <!-- Fourth Card-->
-                        <div class="carousel-item col-md-4">
-                            <div class="card bg-info mb-2" id="music-card">
-                                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307167187&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                                <div class="card-body">
-                                    <h4 class="card-header" id="artist-name">Jane Doe</h4>
-                                    <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    <a class="btn btn-warning btn-md btn-rounded">View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Fourth Card -->
-                        <!--Fifth Card -->
-                        <div class="carousel-item col-md-4">
-                            <div class="card bg-info mb-2" id="music-card">
-                                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/563939184&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                                <div class="card-body">
-                                    <h4 class="card-header" id="artist-name">Jane Doe</h4>
-                                    <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    <a class="btn btn-warning btn-md btn-rounded">View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Fith Card -->
-                        <!-- Sixth Card -->
-                        <div class="carousel-item col-md-4">
-                            <div class="card bg-info mb-2" id="music-card">
-                                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/547268718&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                                <div class="card-body">
-                                    <h4 class="card-header" id="artist-name">Jane Doe</h4>
-                                    <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    <a class="btn btn-warning btn-md btn-rounded">View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--End Sixth Card -->
-                        <!-- Seventh Card -->
-                        <div class="carousel-item col-md-4">
-                            <div class="card bg-info mb-2" id="music-card">
-                                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/538826043&color=%23695458&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                                <div class="card-body">
-                                    <h4 class="card-header" id="artist-name">Jane Doe</h4>
-                                    <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    <a class="btn btn-warning btn-md btn-rounded">View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Seventh Card -->
-                        <!-- Eighth Card -->
-                        <div class="carousel-item col-md-4">
-                            <div class="card bg-info mb-2" id="music-card">
-                                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/400797294&color=%23695458&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                                <div class="card-body">
-                                    <h4 class="card-header" id="artist-name">Jane Doe</h4>
-                                    <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    <a class="btn btn-warning btn-md btn-rounded">View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Eight Card -->
-                        <!-- Ninth Card -->
-                        <div class="carousel-item col-md-4">
-                            <div class="card bg-info mb-2" id="music-card">
-                                <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/307550378&color=%23695458&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-                                <div class="card-body">
-                                    <h4 class="card-header" id="artist-name">Jane Doe</h4>
-                                    <p class="lead" id="artist-description">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                                    <a class="btn btn-warning btn-md btn-rounded">View</a>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End Eight Card -->
-                    </div>
+                        
+                    
+
+                    
                 </div>
             </div>
             <!-- End Card Carousel -->
@@ -259,16 +196,16 @@
             <footer class="page-footer font-small blue pt-4" id="footer">
                 <div class="container-fluid text-center text-md-left">
                     <div class="row">
-                        <div class="col footer-title" style="background-color:">
+                        <div class="col footer-title">
                             <h5 class="text-uppercase">Yuorban</h5>
                             <div class="row footer-links">
-                                    <div class="col" style="background-color: ;">
+                                    <div class="col">
                                         <p class="footer-text">About Us</p>
                                         <p class="footer-text">FAQ</p>
                                         <p class="footer-text">Jobs</p>
                                         <p class="footer-text">Help</p>
                                     </div>
-                                    <div class="col" style="background-color: ;">
+                                    <div class="col">
                                             <p class="footer-text">Privacy policy</p>
                                             <p class="footer-text">Legal</p>
                                             <p class="footer-text">Cookies</p>
@@ -278,7 +215,7 @@
                         </div>
                         
                         <!--grid column code -->
-                        <div class="col footer-title" style="background-color: ;">
+                        <div class="col footer-title">
                             <!-- Links -->
                             <h5>Join our Community:</h5>
 
