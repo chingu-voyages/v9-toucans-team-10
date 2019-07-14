@@ -10,7 +10,6 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">  
 
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
@@ -18,16 +17,17 @@
 <body>
         <!-- NAVIGATION BAR -->
         <header>
-            <nav class="navbar navbar-expand-md navbar-light bg-transparent">
-                <form class="form-inline" href="#">
-                    <a class="navbar-brand " href="#"><span class="mb-0 h1 navbar-title">Yuorban</span></a>
-                    <!-- Button trigger modal -->
-                    <div class="btn-toolbar">
-                        <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent" data-toggle="modal" data-target="#exampleModal">Home</button>
-                        <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent" data-toggle="modal" data-target="#exampleModal">Register</button>
-                        <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
-                    </div>
-                </form>
+            <nav class="navbar navbar-expand-md navbar-light d-flex mb-3">
+                <a class="navbar-brand" href="#"><span class="mb-0 h1 navbar-title">Yuorban</span></a>
+                <!-- Button trigger modal -->
+                <div class="btn-toolbar p-2">
+                    <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent" data-toggle="modal" data-target="#exampleModal">Home</button>
+                    <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent" data-toggle="modal" data-target="#exampleModal">Register</button>
+                    <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent" data-toggle="modal" data-target="#exampleModal">Contact Us</button>
+                </div>
+                <div class="ml-auto p-2">
+                    <button id="navbtn" type="button" class="btn navbar-btn btn-lg bg-transparent ml-auto" data-toggle="modal" data-target="#exampleModal">Log in</button>
+                </div>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog" role="document">
@@ -49,7 +49,6 @@
                 </div>
             </nav>
             <!--End Modal-->
-
         </header>
 
         <main>
@@ -98,8 +97,7 @@
                 </div>
             </div>
 
-            <!-- add a div for circles and cards and center all directly in css? only 1 property that way-->
-            <!-- FANCY CIRCLES -->
+            <!-- CIRCLES -->
             <div class="circles-div row">
                 <div class="circles-content col-lg-4">
                     <img class="circles-images" src="pics\dark-rider-42019-unsplash.jpg" width="140" height="140">
@@ -133,21 +131,22 @@
                 </div>
             </div>
 
-            <!-- Card Carousel -->
+            <!-- PREVIEWS -->
             <div>
                 <h1 class="text-center mb-3 card-title">July's Featured Artists</h1>
                 <!-- Card Container -->
                 <div class="card-div row">
                             <!-- First Card-->
                             <div class="card card-content bg-transparent col-lg-4" id="music-card">
+                                <h4 class="card-header" id="artist-name">Bug</h4>
                                 <iframe width="100%" height="100%" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/583057626&color=%23b3b6ce&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
                                 <div class="card-body text-center">
-                                    <h4 class="card-header" id="artist-name">Bug</h4>
-                                    <div>
+                                    
+                                    
                                         <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Tracks</a>
                                         <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Albums</a>
                                         <a class="btn btn-secondary btn-music-card bg-transparent" href="#myCarousel">Playlists</a>
-                                    </div>
+                                    
                                 </div>
                             </div>
                         <!-- End First Card -->
@@ -180,7 +179,6 @@
                 </div>
             </div>
 
-
             <!-- FOOTER -->
             <footer class="page-footer font-small blue pt-4" id="footer">
                 <div class="container-fluid text-center text-md-left">
@@ -207,7 +205,6 @@
                         <div class="col footer-title">
                             <!-- Links -->
                             <h5>Join our Community:</h5>
-
                             <ul class="list-unstyled footer-links">
                                 <li class="footer-icon">
                                     <i class="fab fa-twitter"></i>
@@ -218,7 +215,6 @@
                                 <li class="footer-icon">
                                      <i class="fab fa-facebook-square"></i>
                                 </li>
-                                
                             </ul>
                         </div>
                     </div>
@@ -226,7 +222,6 @@
                     <div class="footer-copyright text-center py-3">© 2019 Copyright:
                         <a href="https://codepen.io/whosthatnewguy/pen/KLLgwm?editors=1100"> Yuorban.com</a>
                     </div>
-                    <!-- Copyright -->
                 </div>
             </footer>
 
