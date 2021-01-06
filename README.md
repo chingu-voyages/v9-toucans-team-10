@@ -22,6 +22,19 @@ This is a landing page for a music sharing plateform
 ## MVP (Minimum Viable Product)
 * Fully responsive landing page
 
+## Screenshots
+Homepage:
+
+![homepage](homepage.jpg)
+
+Discover music:
+
+![discover music](discover.jpg)
+
+Featured Artists:
+
+![featured artists](featured-artists.jpg)
+
 ## Tech Stack
 * HTML
 * CSS
